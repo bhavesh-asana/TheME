@@ -2,22 +2,22 @@
 import React from 'react'
 import profile from '../../../public/profile.jpg'
 import Image from 'next/image'
-import { Button } from '@nextui-org/react'
-import { TypeAnimation } from 'react-type-animation'
+import Typewriter from 'typewriter-effect'
 
 
 export default function Header() {
     return (
-        <main className='text-center'>
-            <div className='block pt-12'>
-                <Image
-                src={profile} alt='Bhavesh Picture' className='object object-top rounded-full w-32 h-32'
-                />
+        <main>
+            <div className='flex flex-col justify-start items-center'>
+                {/* <Image
+                    src={profile} alt='Bhavesh Picture'
+                    className='w-48 h-48  object object-top  rounded-full '
+                /> */}
             </div>
-            <div>
-            <h1>Bhavesh Asanabada</h1>
+            <div className='flex flex-col items-center justify-center mb-4'>
+                <h1 className='text-2xl'>Bhavesh Asanabada</h1>
             </div>
-            <div>
+            {/* <div>
                 <TypeAnimation
                     sequence={
                         [
@@ -33,24 +33,11 @@ export default function Header() {
                     }
                     wrapper='span'
                     speed={10}
-                    style={{fontSize:'1em', display: 'inline'}}
+                    style={{ fontSize: '1em', display: 'inline' }}
                     className='text-rose-800'
                     repeat={Infinity}
                 />
-            </div>
-            <div>
-                <Button>Download Resume</Button>
-            </div>
-            <div>
-            <p>Get in touch</p>
-            <div>
-                <ul className='flex gap-2'>
-                    <li>Discord</li>
-                    <li>Slack</li>
-                    <li>LinkedIn</li>
-                </ul>
-            </div>
-            </div>
+            </div> */}
         </main>
 
     )

@@ -6,13 +6,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-} */
-
 body {
   display: flex;
   margin: 0 0;
@@ -20,4 +13,13 @@ body {
   background-color: black;
   align-items: center;
   justify-content: center;
+}
+
+.icon {
+  /* color: #f43f5e */
+  color: linear-gradient(to top right, #ffcccc, #6699ff);
+}
+
+h1{
+  color: #f43f5e
 }

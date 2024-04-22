@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function experience() {
   return (
-    <main className='space-y-4'>
+    <main className='space-y-4 m-7 pl-7 ml-10'>
       <div className='container bg-rose-200/10 rounded-xl p-4 justify-around transform transition duration-500 hover:scale-105'>
         <h1 className='text-2xl text-rose-600'>Google Summer of Code</h1>
         <h2 className='text-l text-rose-800'>Software Developer</h2>
