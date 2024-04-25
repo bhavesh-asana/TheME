@@ -9,13 +9,9 @@ export default function Header() {
     return (
         <main>
             <div className='flex flex-col justify-start items-center'>
-                {/* <Image
-                    src={profile} alt='Bhavesh Picture'
-                    className='w-48 h-48  object object-top  rounded-full '
-                /> */}
             </div>
             <div className='flex flex-col items-center justify-center mb-4'>
-                <h1 className='text-2xl'>Bhavesh Asanabada</h1>
+                <h1 className='text-2xl'>Site under development</h1>
             </div>
             {/* <div>
                 <TypeAnimation
